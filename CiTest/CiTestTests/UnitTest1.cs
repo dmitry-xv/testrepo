@@ -12,5 +12,11 @@ namespace CiTestTests
         {
             Assert.AreEqual("Hello", new MrWho().SayHello());
         }
+
+        [TestMethod]
+        public void ThisTestWillFail()
+        {
+            throw new Exception("Something's wrong here");
+        }
     }
 }
