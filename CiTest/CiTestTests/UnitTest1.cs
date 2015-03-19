@@ -10,7 +10,7 @@ namespace CiTestTests
         [TestMethod]
         public void Hello(            )
         {
-            Console.WriteLine("running the test...");
+            Console.WriteLine("running the test... 2!");
             Assert.AreEqual("Hello", new MrWho().SayHello());
         }
 
